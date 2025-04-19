@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
-import { useFormState } from 'react-dom'
+import React from "react"
+
+import Header from "../components/Header"
 
 export default function MainPage() {
 
     
     
   return (
-    <div>
+      <Header/>
+
       
-    </div>
   )
 }
